@@ -25,6 +25,8 @@ public class AddressBook {
         AddressBook addressBook = new AddressBook(null, null, 0);
         addressBook.addBuddy(buddy);
         addressBook.removeBuddy(0);
+        System.out.println(buddy.ToString());
+
 
 
 
